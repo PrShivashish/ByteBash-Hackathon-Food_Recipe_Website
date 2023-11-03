@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Recipe Upload</title>
+    <link rel="stylesheet" href="upload.css" />
+  </head>
+  <body>
+    <h1>Upload Your Recipe</h1>
+    <p>Please fill out this form with the required information</p>
+    <form method="get" action='submit.html'>
+      <fieldset>
+        <label for="first-name">Enter Your Name: <input placeholder="Your name here..." id="name" name="name" type="text" required /></label>
+        <!-- <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label> -->
+        <label for="email">Enter Your Email: <input placeholder="Your email here..." id="email" name="email" type="email" required /></label>
+        <label for="text-area">Enter Your Recipe Name<input id="text-area" placeholder="Eg. Paneer Butter Masala,etc" name="recipe-name" required /></label>
+    
+        <label for="recipe-image">Upload picture of your dish<input id="dish-image" type="file" name="file" /></label>
+
+
+        <label for="bio">Enter your Recipe
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder=""></textarea>
+        </label>
+      </fieldset>
+      <label for="terms-and-conditions">
+        <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://blank.page/">terms and conditions</a>
+      </label>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,149 @@
+*, ::after, ::before {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    margin:0 100px;
+    background-color:#ffeae0;
+}
+/* MEN */
+.nav  {
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 0;
+}
+.nav:hover {
+    color:blue;
+}
+/* LOGO  */
+.nav .logo h1 {
+    font-weight:600;
+    font-size:30px;
+    font-family:sans-serif;
+    color:black;
+
+}
+.nav .logo b {
+    color:#ff511c;
+
+}
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+.nav ul li{
+    margin-right: 30px;
+}
+.nav ul li a {
+    text-decoration:none;
+    color:#000000;
+    font-weight:500;
+    font-family:sans-serif;
+    font-size: 17px;
+
+}
+.nav ul .active:after {
+    content:" ";
+    width: 50%;
+    height:3px;
+    background-color:#ff511c;
+    display:flex;
+    position:relative;
+    margin-left: 10px; 
+
+
+}
+/* INPUT  */
+input {
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.signin {
+    background:transparent;
+    border:none;
+}
+.signup {
+    background-color:#ff511c;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    border-radius:5px;
+}
+/* CONTENT */
+ .content {
+    display:grid;
+    grid-template-columns:50% auto;
+    gap:30px;
+    margin-top: 120px;
+    align-items:center;
+    justify-content:space-between;
+    width:100%;
+ }
+ .content .content-left {
+    display: block;
+    width: 100%;
+ }
+ .content .content-life .info {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+
+ }
+ .content .content-left .info h2{
+    font-size:95px;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+ }
+
+.content .content-left button {
+    background-color:#ff511c;
+    padding:15px 10px;
+    color:white;
+    font-weight: bold;
+    border-radius:5px;
+    border:none;
+    cursor:pointer;
+    font-size:20px;
+    
+ }
+ .content .content-right {
+    display: block;
+    width: 100%;
+    
+ }
+ .content .content-right img {
+    width:500px;
+    height:auto;
+    border-radius:55%;
+    position:relative;
+    animation:rotate 10s linear infinite;
+    transition: ease-in-out;
+    user-select:none;
+ }
+ @keyframes rotate {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+ }
+.table {
+    box-sizing: border-box;
+    display:inline-block;
+    text-align:center;
+
+}
+.name3 {
+    color:white;
+    text-decoration: none;
+
+}
+
+.name3:hover {
+    color:black;
+}

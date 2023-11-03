@@ -1,0 +1,397 @@
+body {
+    background-color:rgb(31, 30, 30);
+}
+h1 {
+    font-weight:900;
+    font-size: 80px;
+    color:White;
+    text-align:center;
+}
+#non-veg {
+    font-size:38px;
+    font-weight: 600;
+    color:white;
+}
+.non-veg img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+}
+.non-veg-left {
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+    .non-veg-left {
+    margin-left:10px;   
+}
+.non-veg-mid {
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.non-veg-right {
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+figcaption {
+    font-weight:bold;
+    font-size:25px;
+    margin:-20px ;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.non-veg {
+    width: 100%; 
+    min-height: 615px; 
+    margin: 0 auto; 
+    display: flex;
+ 
+}
+.veg {
+    width: 100%; 
+    min-height: 615px; 
+    margin: 0 auto; 
+    display: flex;
+ 
+}
+#veg, #dessert, #shake {
+    font-size:38px;
+    font-weight: 600;
+    color:white;
+}
+.veg-1{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.veg-1{
+    margin-left:10px;   
+}
+.veg  img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.veg-2{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.veg-3{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.line2 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.veg-4{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.veg-4{
+    margin-left:10px;   
+}
+.veg-5{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.veg-6{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+
+.line3 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.veg-7{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.veg-7{
+    margin-left:10px;   
+}
+.veg-8{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.veg-9{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.dessert-line1 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.dessert1{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.dessert1{
+    margin-left:10px;   
+}
+.dessert2{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.dessert3{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.dessert-line2 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.dessert4{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.dessert4{
+    margin-left:10px;   
+}
+.dessert5{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.dessert6{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.dessert-line3 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.dessert7{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.dessert7{
+    margin-left:10px;   
+}
+.dessert8{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.dessert9{
+   
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.shake-line1 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.shake1{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.shake1{
+    margin-left:10px;   
+}
+.shake2{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}
+.shake3{ display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+   
+}
+.shake-line2 img{
+    width:300px;
+    height:300px;
+    margin:40px;
+    padding:1px;
+    border-radius:20%;
+   
+
+}
+.shake4{
+    /* border: 1px solid #000; This sets a black border with 1 pixel width */
+    display: inline-block; /* This ensures that the div takes the size of its content */
+    border-radius:10%;
+    margin:50px;
+    height:445px;
+    background-color: #d68a6c;
+    /* padding: 10px; This adds some padding inside the border */
+}
+
+.shake4{
+    margin-left:10px;   
+}
+.shake5{
+    display:inline-block;
+    border-radius: 10%;
+    margin-top:50px;
+    margin-bottom: 50px;
+    height:445px;
+    margin-left:90px;
+    margin-right:90px;
+    background-color: #d68a6c;
+}

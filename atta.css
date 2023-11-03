@@ -1,0 +1,66 @@
+body {
+    background-color:rgb(224, 205, 205)
+}
+h1 {
+    font-size:100px;
+    color:rgb(147, 26, 26);
+    text-align:center;
+    font-weight:bolder;
+    text-decoration:4px solid black;
+    margin-top:10px;
+    margin-bottom:30px;
+    padding-top:20px;
+    padding-bottom:10px;
+    
+
+}
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:40%;
+    border-radius:70px;
+}
+.about1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    margin:10px;
+    padding:10px;
+
+}
+.ing {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:40px;
+    margin:10px;
+    padding:10px;
+
+}
+p {
+    word-spacing:5px;
+    padding:5px 15px 5px 15px;
+    font-weight:3;
+    font-style:Verdana, sans-serif;
+    float:center;
+    font-size:20px;
+    
+
+
+
+}
+.left, .right {
+    display:inline-block;
+}
+
+.tip {
+    border:2px;
+    border-color:rgb(24, 14, 14);
+    margin:4px;
+    font-style:italic;
+    font-weight:2;
+    font-family:Verdana, sans-serif;
+}
+.step {
+    font-size:20px;
+    padding:20px;
+    
+}
